@@ -262,10 +262,11 @@ const sketch = (p: any) => {
   };
 
   p.setup = async () => {
+    p.pixelDensity(1);
     p.createCanvas(roadmap.w, roadmap.h);
     p.background(255);
     p.noStroke();
-    p.image(roadMap, 0, 0);
+    p.image(roadMap, 0, 0, roadmap.w, roadmap.h);
     p.loadPixels();
 
     // load data

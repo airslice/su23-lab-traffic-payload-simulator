@@ -28,14 +28,24 @@ A simple traffic payload simulator for 金地峯范地下停车场 (shanghai)
 
 ## Simulation Result
 
-### 4进3出 （南区单入单出，4#进9#出）
+## 东门开放前
+
+### 4双3双 （无特殊管制，南区4# 9#双向进出，当前状态）
+
+![34-34](https://github.com/airslice/su23-lab-traffic-payload-simulator/assets/21994748/5fec60d6-e0c1-4d41-8590-f5bfdab31800)
+
+### 4进3出 （南区单入单出，4#进9#出，前期公示方案一）
 
 ![4-3](https://github.com/airslice/su23-lab-traffic-payload-simulator/assets/21994748/f810e7cf-22bd-4802-af97-e74248de3483)
 
-### 4双1双（南区4#双向，北区东门双向）
+## 东门开放后
+
+### 4双1双（南区4#双向，北区东门双向，前期公示方案二）
 
 ![14-14](https://github.com/airslice/su23-lab-traffic-payload-simulator/assets/21994748/e1b6963d-6b01-4a37-95af-9c5203f74d71)
 
-### 4进3出1双（南区单入单出，北区东门双向）
+### 4进3出1双（南区单入单出，沿用方案一，北区东门双向）
 
 ![14-13](https://github.com/airslice/su23-lab-traffic-payload-simulator/assets/21994748/f07f2d9c-fff2-4ec6-9f0e-1a495c83bbd1)
+
+## 北门开放遥遥无期，暂跳过模拟
